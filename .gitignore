@@ -1,0 +1,31 @@
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# Node / Vite
+node_modules/
+dist/
+coverage/
+.vite/
+*.local
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp
